@@ -13,7 +13,7 @@ const config = {
 };
 const pool = new pg.Pool(config);
 
-app.get('/quotes',(req, res) => {
+app.get('/quote',(req, res) => {
     pool.connect(function (errorConnectingToDb, db, done) {
         if (errorConnectingToDb) {
             // There was an error and no connection was made
@@ -36,7 +36,7 @@ app.get('/quotes',(req, res) => {
         }
     }); // END POOL
 });
-
+app.use(express.static('server/public'));
 app.listen(port, function () {
     console.log('thx for listening on station:', port);
 }); //the port you want to use
