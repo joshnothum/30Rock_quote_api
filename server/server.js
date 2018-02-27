@@ -21,7 +21,7 @@ app.get('/quotes',(req, res) => {
         } else {
             // We connected to the db!!!!! pool -1
             let queryText = 'SELECT *'+
-                            'FROM "quotes';
+                            'FROM "quote';
             db.query(queryText, [], function (errorMakingQuery, result) {
                 // We have received an error or result at this point
                 done(); // pool +1
