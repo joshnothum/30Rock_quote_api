@@ -1,7 +1,7 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "",
+  "description": "a quote API for 30Rock",
   "main": "server.js",
   "scripts": {
     "test": "nodemon server.js",
@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "mongodb": "^3.0.3",
     "mongoose": "^5.0.7",
     "morgan": "^1.9.0",
     "nodemon": "^1.15.1"
