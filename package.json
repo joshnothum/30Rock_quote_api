@@ -4,15 +4,16 @@
   "description": "a quote API for 30Rock",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js",
-    "start": "node server.js"
+    "test": "nodemon server/server.js",
+    "start": "node server/server.js"
   },
   "author": "josh nothum",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "nodemon": "^1.15.1",
-    "pg": "^7.4.1"
+    "pg-promise": "^8.1.0"
   }
 }
