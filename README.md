@@ -1,10 +1,10 @@
 # 30 Rock Quote API
 
-Find quotes from 30 Rock.
+Receive quotes from 30 Rock.
 
 ## Built With
 
-Mongo, Express, Node.js
+Node.js, Express, Bulma
 
 ## Getting Started
 
@@ -13,7 +13,6 @@ NPM Install
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
-- [MongoDB](http//www.chartjs.org/docs/latest/)
 
 ### Author
 
