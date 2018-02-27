@@ -10,10 +10,9 @@
   "author": "josh nothum",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "nodemon": "^1.15.1",
-    "pg-promise": "^8.1.0"
+    "pg": "^7.4.1"
   }
 }
