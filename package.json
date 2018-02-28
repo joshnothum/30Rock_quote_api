@@ -15,6 +15,7 @@
     "express": "^4.16.2",
     "font-awesome": "^4.7.0",
     "nodemon": "^1.15.1",
+    "path": "^0.12.7",
     "pg": "^7.4.1",
     "subtitles-parser": "0.0.2"
   }
