@@ -8,6 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 let parsedData = require('./public/modules/parse.js');
 
+
 app.get('/quote', (req, res) => {
     pool.connect(function (errorConnectingToDb, db, done) {
         if (errorConnectingToDb) {
