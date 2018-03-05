@@ -1,10 +1,10 @@
 # 30 Rock Quote API
 
-Receive quotes from 30 Rock.
+Every word spoken in the series will be available.
 
 ## Built With
 
-Node.js, Express, Bulma
+Node.js, Express, Bulma, subtitles-parser
 
 ## Getting Started
 
